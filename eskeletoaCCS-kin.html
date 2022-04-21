@@ -1,0 +1,218 @@
+<!DOCTYPE html> <!-- se trata de un documento de tipo HTML -->
+<html lang="eu">
+<!-- Euskaraz egindako web-orria da-->
+
+<head>    
+   <meta charset="UTF-8">
+    <meta name="description" content="ARI - Industria Informatikako webguneak 
+    sortzeko baliabideen tutoriala - CSS" />
+    <meta name="keywords" content="ARI,Automatizazioa,SIEMENS,TIA,
+    web,css,tutoriala" />
+    <meta name="author" content="Zure izena: JI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS txuleta </title>
+    <!-- Beste webgune bateko estiloa kopiatu dezaket iturburu-kodea begiratuz eta fitxategiak aipatuz. Leku askotan ez da hain erraza. -->
+    <!--link href="https://www.vitoria-gasteiz.org/http/comun/j38-01/css/styles.css" rel="stylesheet" type="text/css"-->
+    <!-- Onena, nire css fitxategia sortzea -->
+    <link href="css/ji-css-example.css" rel="stylesheet" type="text/css"/>    
+    <style>
+    h1{
+        font-size:3em;
+        background-color: #466DD7;
+    }
+    h2{
+        font-size:2.75em;
+        background-color: #6D8AD8;
+    }
+    h3{
+        font-size:2em;
+        background-color: #98AADA;
+    }
+    </style>
+</head>
+
+<body>    
+    <header>
+        <h1>CSS - laburpena</h1>
+        <p>tutorial ofiziala <a href="https://www.w3schools.com/css/default.asp" target="_blank">hemen</a></p>
+        <hr/>
+    </header>
+    <main>    
+    <section id="kontzeptuak">
+        
+        <h2>Kontzeptu orokorrak</h2>
+        <hr/>
+        <div>
+        <h3>Kutxetan oinarritutako eredua
+        </h3>
+        <p>
+        Etiketa bakoitza (div, p, section, table, etab) <em>kutxa bat bezalakoa da</em>, eta honako elementu hauek ditu:
+        </p>
+        <table>
+            <caption>Adibideak</caption>
+            <thead>
+                <tr><th>Eredua</th><th>Adibidea: H2 etiketa</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td width="20%">
+                <figure>
+                    <img 
+                        src="img/kutxak-eredua.png"
+                        alt="CSS-Kutxetan oinarritutako eredua" />
+                    <p>www.openwebinars.org -tik hartutako irudia.</p>
+                </figure>
+                </td>
+                <td  width="70%"> 
+                    <figure>
+                    <img    width="50%"            src="img/css-kutxak-adibide.jpg"
+                        alt="CSS-Kutxetan oinarritutako eredua - adibidea" />
+                    <p>JI-k sorturiko irudia.</p>
+                    </figure>
+                </td>
+                </tr>
+                <tr><td colspan="2"> 
+                <figure>
+                <img src="img/css-box-model.JPG"/>
+                <p>Saiakera gehiago egiteko, sakatu <a h<ref="https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel" target="_blank">hemen</a></p>
+            </figure> 
+                </td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2"></td></tr>
+            </tfoot>
+        </table>
+        <p> <small>Kutxa bera "border" ertzean amaitzen da, baina "margin" bat dago hura inguratzen duten beste kutxetaraino.</small></p>
+        </div>
+        <hr/>
+        <div>
+        <h3>display:inline VS display:block</h3>
+        <p>
+        Etiketa bakoitza "inline edo block" jar daiteke
+        </p>
+        <table>
+            <!--<caption>display</caption>-->
+            <thead>
+                <tr><th>inline</th><th>block</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td width="50%">
+                <figure>
+                    <img 
+                        src="img/inline.jpg"
+                        alt="CSS-display:inline" />
+                     <!--<p>JI-k sorturiko irudia.</p>-->
+                </figure>
+                </td>
+                <td  width="50%"> 
+                    <figure>
+                    <img                src="img/block.jpg"
+                        alt="CSS-display:block" />
+                    <!--<p>JI-k sorturiko irudia.</p>-->
+                    </figure>
+                </td>
+                </tr>
+                <tr>
+                <td>Etiketa-kutxa jarraian jartzen dira, ezkerretik eskuinera, lerro berean gehiago geratzen ez diren arte.</td>
+                <td>Etiketa-kutxa bakoitza lerro batean</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2"></td></tr>
+            </tfoot>
+        </table>
+       
+        </div>
+    </section>
+    <hr/>
+    <hr/>
+    <section id="sintaxis">
+        <h2>Sintaxia</h2>
+        <p>Hautatzaileak adierazitako elementuari aplikatzen zaio propietatea: kasu honetan, p paragrafoen testua gorriz idatziko da</p>
+        <img width="25%" src="img/css-syntax.png"/>
+    </section>
+    <hr/>
+    <section id="hautatzaileak">
+        <h2>Kontzeptu orokorrak</h2>
+        <div>
+            <p>Ikusi HTML fitxategia eta bere CSS fitxategia; Gero, ikusi emaitza estilorik gabe eta estilo horiek aplikatu eta gero</p>
+            <table>
+            <tr>
+            <th>HTML kodea eta CSS kodea</th>
+            </tr>
+            <tr>
+            <td><img src="img/hautatzaileak-css-html.png"/></td>
+            </tr>
+            <td>Aurreko kodearen emaitza (CSS-rik gabe eta CSS aplikatuta)</td> 
+            <tr>
+            <td><img src="img/hautatzaileak-emaitzak.png"/></td>
+            </tr>
+            </table>        
+        </div>
+    </section>
+    <hr/>
+    <hr/>
+    <section id="propietateak">
+        <h2>Propietateak</h2>
+        <div>
+            <p>CSS3 propietateak - <a href="https://developer.mozilla.org/es/docs/Web/CSS/Reference" target="_blank">zerrenda osoa</a></p>
+        </div>
+        <hr/>
+        <div id"koloreak">
+            <h3>Koloreak</h3>
+            <figure>
+                <img src="img/css-color.JPG"/>
+                <p>Saiakera gehiago egiteko, sakatu <a h<ref="https://www.w3schools.com/css/tryit.asp?filename=trycss_background-color_elements" target="_blank">hemen</a></p>
+            </figure>
+        </div>
+        <hr/>
+        <div id"margin">
+            <h3>Margins eta Paddings</h3>
+            <figure>
+                <img src="img/css-margin-padding.JPG"/>
+                <p>Saiakera gehiago egiteko, sakatu <a h<ref="https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_intro" target="_blank">hemen</a></p>
+            </figure>
+        </div>
+        <hr/>
+        <div id"borders">
+            <h3>Borders</h3>
+            <figure>
+                <img src="img/css-borders.JPG"/>
+                <p>Saiakera gehiago egiteko, sakatu <a h<ref="https://www.w3schools.com/css/css_border.asp" target="_blank">hemen</a></p>
+            </figure>
+        </div>
+        <hr/>
+        <div id"font">
+            <h3>Font</h3>
+            <figure>
+                <img src="img/css-fonts.JPG"/>
+                <p>Saiakera gehiago egiteko, sakatu <a h<ref="https://www.w3schools.com/css/css_font.asp" target="_blank">hemen</a></p>
+            </figure>
+        </div>
+        <div id"text">
+            <h3>Text</h3>
+            <figure>
+                <img src="img/css-text.JPG"/>
+                <p>Saiakera gehiago egiteko, sakatu <a h<ref="https://www.w3schools.com/css/css_text.asp" target="_blank">hemen</a></p>
+            </figure>
+        </div>
+        <hr/>
+        <div id"sasiHautatzaileak">
+            <h3>Pseudo-Selectores & Pseudo-Elementos</h3>
+            <figure>
+                <img src="img/CSS-SasiHautatzaileak.png"/>
+                <p>Saiakera gehiago egiteko, sakatu <a h<ref="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">hemen</a></p>
+            </figure>
+        </div>
+        <hr/>
+    </section>
+    </main>
+    
+    <footer>
+        <hr/>
+        <p>CSS - laburpena</p>
+    </footer>
+</body>
+
+</html

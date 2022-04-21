@@ -1,0 +1,354 @@
+<!DOCTYPE html> <!-- se trata de un documento de tipo HTML -->
+<html lang="eu">
+<!-- Euskaraz egindako web-orria da-->
+
+<head>
+    <!-- Se trata de información general de la página y recursos; no se ve-->
+    <meta charset="UTF-8">
+    <!--El texto está codificado en UTF-8, hay otros sistemas 
+    como ISO-8859-1
+    Á = 1100001110000001 en UTF-8
+    Á = 11000001 en ISO-8859-1 -->
+    <meta name="description" content="ARI - Industria Informatikako webguneak 
+    sortzeko baliabideen tutoriala" />
+    <meta name="keywords" content="ARI,Automatizazioa,SIEMENS,TIA,
+    web,tutoriala" />
+    <!--Si es una web accesible por Internet me puede interesar que los buscadores
+    la muestren: cuando rastrean mira estos metas para saber de qué va y proponerla
+    a las personas que estén buscando esas cosas-->
+    <meta name="author" content="Zure izena: JI" />
+    <!--Nor zaren erakusteko-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--web-orria eskalatzeko, nabigatzaile guztietan ondo ikus dadin (sakelakoan, tablet, PC ...)-->
+    <meta http-equiv="refresh" content="15" />
+    <!-- marca.com partiduen emaitzak eguneratzeko automatikoki
+    automatekin erabiltzeko interesgarria ere bai (sarrera baten balorea aldatzen ari da une oro)-->
+    <title>141DB-S7-1200-7-TALDEA-WEB-ORRIKO TITULOA</title>
+    <!--Nabigatzailearen leihoaren goiko hegalean agertuko da.-->    
+</head>
+
+<body>
+    <!-- Paragrafoaren goiburuak garrantziaren arabera -->
+    <section id="testuak">
+        <!-- 'section' etiketarekin orrialdeko eremu bat mugatzen dugu. Ez da beharrezkoa jartzea. 
+        Ez da beharrezkoa ere 'id' atributua jartzea, baina gero beste gauza batzuetarako erabiliko dugu...
+    -->
+        <h1>H1 Goiburua - TESTUAK</h1>
+        <h2>H2 Goiburua</h2>
+        <h3>H3 Goiburua</h3>
+        <h4>H4 Goiburua</h4>
+        <h5>H5 Goiburua</h5>
+        <h6>H6 Goiburua</h6>
+
+        <p>Paragrafoa: Testu luzeko paragrafo bat idazteko erabiltzen da
+        </p>
+
+        <p>Testu horretan hitzak <b>letra lodiz</b> egon daitezke, zati bat <i>letra etzanez</i>,
+            beste bat <mark>azpimarratuta</mark> edo <del>ezabatuta</del>.</p>
+
+        <p>Horretaz gain, <small>hitz batzuk oso txikiak jarri nahi ditut</small>,
+            eta <em>beste batzuk bereziki nabarmendu</em>.
+        </p>
+
+        <p>
+            Azpiindizeak eta superindizeak erabil ditzaket: (lerroz aldatuko dut testua)<br />
+            aldagaiaren hasierako balioa (t<sub>0</sub>) x<sup>2</sup> da
+        </p>
+        <hr />
+        <p>
+            <cite>JI-k esaten duen bezala ...</cite>
+            <blockquote>Pare txirikordatuak dituzten kableetan, hartune emeetan emaitza ona lortzeko trikimailua
+                txirikordatua amaierara arte mantentzea da.</blockquote>
+        </p>
+        <hr />
+        <adress>
+            <p>EGIBIDE - Arriaga</p>
+            <p>Pozoa zg</p>
+            <p>01013 VITORIA-GASTEIZ</p>
+        </adress>
+    </section>
+    <hr/>
+    <section id="taulak">
+        <h1>TAULAK</h1>
+        <p>
+            <table>
+                <tr>
+                    <th>
+                        1. Goiburua    
+                    </th>
+                    <th>
+                        2. Goiburua    
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        (1. lerroa 1. zutabea)
+                    </td>
+                    <td>
+                        (1. lerroa 2. zutabea)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        (2. lerroa 1. zutabea)
+                    </td>
+                    <td>
+                        (2. lerroa 2. zutabea)
+                    </td>
+                </tr>
+            </table>
+        </p>
+    </section>
+    <hr/>
+    <section id="irudiak">
+        <h1>IRUDIAK</h1>
+        <p>Irudiak jartzeko bi aukera nagusiak:</p>
+        <p>
+            <table>
+                <tr>
+                    <td>"img" karpetan gordeta daukadan martxa-botoi baten irudia jarriko dut. karpeta html
+                        fitxategiaren
+                        leku berean kokatuta dago. Zerbitzarian bertan.
+                    </td>
+                    <td><img src="img/martxa-botoi.png" width="10%" alt="martxa-botoia" /></td>
+
+                </tr>
+                <tr>
+                    <td>Interneteko beste zerbitzari batean gordeta dagoen gelditzeko botoi baten irudia jarriko dut.
+                        Horretarako, bere http esteka kopiatu zuen. Oso erabilgarria da, baldin eta, automatarekin
+                        gertatzen
+                        den bezala, memoria gutxi badago html orrialdeekin batera gordetzeko.</td>
+                    <td><img width="10%"
+                            src="https://banner2.cleanpng.com/20180329/aje/kisspng-button-computer-icons-clip-art-stop-5abcde09bc1dd3.3432536315223270497705.jpg"
+                            alt="gelditzeko-botoia" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Argazki oina jarri nahi bazenu. Adibidez, irudia nondik lortu duzun adierazteko.</td>
+                    <td>
+                        <figure>
+                            <img width="30%"
+                                src="https://www.tecnoplc.com/wp-content/uploads/2016/02/Led-MAINT-intermiente-al-insertar-tarjeta-para-cargar-firmware-S7-1200..jpg"
+                                alt="S7-1200" />
+                            <figcaption>wwww.tecnoplc.com -tik hartutako irudia.</figcaption>
+                        </figure>
+                    </td>
+
+                </tr>
+            </table>
+        </p>
+    </section>
+    <hr/>
+    <section id="estekak">
+        <h1>ESTEKAK</h1>
+        <p>Siemens-en tutorial bat kontsultatzeko, automatetan webguneak sortzeko,
+            sakatu <a
+                href="https://support.industry.siemens.com/cs/document/68011496/creating-and-using-user-defined-web-pages-on-s7-1200-s7-1500?dti=0&lc=en-WW"
+                target="_blank">hemen</a> (tutoriala nabigatzailearen beste leiho batean irekiko da
+        </p>
+        <p>
+            Irudi batek ere esteka eduki ahal du. Saiatu klikatzen (Target='_blank' jarri ez dudanez, leihoan bertan
+            agertuko)...
+        </p>
+        <a href="https://www.youtube.com/watch?v=Gr2MIqW2iMI">
+            <img src="img/YoutubeTutorialaWeb.JPG" alt="Youtube-s7-1200-Web-Tuto" width="30%" />
+        </a>
+        <p>Orri bereko <a href="#testuak">beste leku batera</a> joateko esteka bat ere jar dezakegu
+        </p>
+    </section>
+    <hr/>
+    <section id="zerrendak">
+        <h1>ZERRENDAK</h1>
+        <table>
+            <tr>
+                <th>Zenbakirik gabe</th>
+                <th>Zenbakidun zerrenda</th>
+                <th>Definizioak</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Zerrendaren 1. elementua</li>
+                        <li>Zerrendaren 2. elementua</li>
+                        <li>Zerrendaren 3. elementua</li>
+                        <li>Zerrendaren 4. elementua</li>
+                    </ul>
+                </td>
+                <td>
+                    <ol>
+                        <li>Zerrendaren 1. elementua</li>
+                        <li>Zerrendaren 2. elementua</li>
+                        <li>Zerrendaren 3. elementua</li>
+                        <li>Zerrendaren 4. elementua</li>
+                    </ol>
+                </td>
+                <td>
+                    <dl>
+                        <dt>SIMATIC G</dt>
+                        <dd>1959an PArisen aurkeztu zen</dd>
+                        <dt>SIMATIC N</dt>
+                        <dd>1964an abiarazia, automatizazioaren munduko erreferentzia bihurtu zen.</dd>
+                        <dt>SIMATIC S3</dt>
+                        <dd>1973 </dd>
+                        <dt>SIMATIC S5</dt>
+                        <dd>90U, 95U, 100U, 105U, 110U, 115U, 135U eta 155U</dd>
+                        <dt>SIMATIC S7</dt>
+                        <dd>S7-200, s7-300, S7-400, S7-1200, S7-1500</dd>
+                    </dl>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section id="taula_aurreratuak" class="estilo_especial"> 
+        <!--Orrialdeko elementuen itxura ez litzateke horrela jarri behar (css fitxategiak erabiltzen dira), baina taula hobeto ikusteko egiten dugu-->    
+        <style>
+            .estilo_especial table{
+                border-collapse: collapse;
+            }
+            .estilo_especial td{
+                border: 1px solid black;
+            }
+            .estilo_especial th{
+                border: 1px solid black;
+            }
+        </style> 
+        <!-- style hau soberan dago -->  
+        <h1>TAULA AURRERATUAK</h1>
+        <table>
+            <caption>Taularen izenburu orokorra</caption>
+            <thead>
+                <tr><th>1. zutabea</th><th>2. zutabea</th><th>3. zutabea</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1.1</td><td>1.2</td><td>1.3</td></tr>
+                <tr><td>2.1</td><td colspan="2">2.2&3</td></tr>
+                <tr><td rowspan="2">3.1&4.1</td><td>3.2</td><td>3.3</td></tr>
+                <tr><!--<td>4.1</td>--><td>4.2</td><td>4.3</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2"">Taularen oinak 2 zutabe baino ez ditu hartzen</td></tr>
+            </tfoot>
+        </table>
+    </section>
+    <hr/>
+    <section id="formularioak">
+        <h1>FORMULARIOAK</h1>
+        <!-- Datuak bidaltzeko zerbitzariari (kasu honetan, automatarena)-->
+        <!-- Formularioak beti doaz FORM etiketaren barruan -->
+        <!-- HTTP-n bi metodo daude datuak bidaltzeko: 
+            normalean POST erabiltzen da. 
+            Badago beste metodo bat, GET, hain segurua ez dena, 
+            datuen balioa URLean bertan doalako: server.html?StopButton=True-->
+            <!-- action: Zein izango da datuak bidali ondoren ikusiko dugun web orria?-->
+        <form method="POST" action="erreleStatus.html">
+            <fieldset>
+                <legend>Langilearen datuak</legend>
+            <p>
+                <label for="ErabIzena">Erabiltzailearen izena</label>
+                <input type="text" name="ErabIzena" id="ErabIzena" required 
+                placeholder="Idatzi zure erabiltzailearen izena"
+                /><!--required=beharrezkoa-->
+            </p>
+            <p>
+                <label for="LangPashtz">Pasahitza</label>
+                <input type="password" name="LangPashtz" id="LangPashtz" required/>
+            </p>
+            <p>
+                <label for="ErabEmail">Email</label>
+                <input type="email" name="ErabEmail" id="ErabEmail" required 
+                placeholder="Idatzi zure email-a"/>
+                <!--type='email, url, date, number ... Nabigatzaileak ulertzen 
+                    baditu, Nabigatzaileak egiaztatuko du idatzi duzuna 
+                    email, url, data, etab. dela -->
+            </p>
+            </fieldset>
+            <fieldset>
+                <legend>Erreleak kontrolatzeko</legend>
+            <p>
+                <!-- Erabiltzaileak hainbat aukeraren artean aukeratzen du bere lantokia, baina beste bat idatz dezake.
+                Gainera, autoosatzeko aukera gaituta dago.
+                 -->
+                <label for="eremua">Lategiaren eremua</label>
+                <input list="eremList" id="eremua" name="eremua">
+                <datalist id="eremList">
+                    <option value="Pintura-eremua">
+                    <option value="Landugabeko muntaketa-eremua">
+                    <option value="Amaierako muntaketa-eremua">
+                </datalist>
+            </p>
+            <p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+            <table><tr><td>
+            <p>
+                <!--zerrenda batetik aukera bakarra edo anitza (multiple) egiteko-->
+                <label for="erreleZbk_A">Erreleak</label><br/>
+                <select name="erreleZbk" id="erreleZbk_A" multiple>
+                    <option value="1">1. ERRELEA</option><!--hau hautatuz gero, erreleZbk=1 bidaliko du-->
+                    <option>2. ERRELEA</option><!--hau hautatuz gero, erreleZbk=2. ERRELEA bidaliko du-->
+                    <option value="3">3. ERRELEA</option>
+                    <option value="4">4. ERRELEA</option>
+                </select>
+            </p>
+            </td>
+            <td>
+                <!--Gauza bera egiteko beste modu bat-->
+                <p>
+                    <label for="erreleZbk_B">Erreleak</label><br/>
+                    <input type="checkbox" name="erreleZbk_B" id="erreleZbk_B" value="5"/>5. ERRELEA<br/>
+                    <input type="checkbox" name="erreleZbk_B" id="erreleZbk_B" value="6"/>6. ERRELEA<br/>
+                    <input type="checkbox" name="erreleZbk_B" id="erreleZbk_B" value="7"/>7. ERRELEA<br/>
+                    <input type="checkbox" name="erreleZbk_B" id="erreleZbk_B" value="8"/>8. ERRELEA<br/>
+                </p> 
+            </td>
+            </tr></table>
+            <p>
+                <label for="erreleStat">Egoera</label>
+                <input type="radio" name="erreleStat" id="erreleStat" value="1" checked/>ON<br/>
+                <input type="radio" name="erreleStat" id="erreleStat" value="0"/>OFF<br/>
+            </p>
+            <p>
+                <label for="temp">Tenperatura (15ºC-tik  45ºC-ra):</label>
+                <input type="range" name="temp" id="temp" min="15" max="45" step="1">
+            </p>
+            <p>
+                <label for="fitx">Hautatu fitxategia automatan kargatzeko:</label>
+                <input type="file" name="fitx" id="fitx">
+            </p>
+            <p>
+                <textarea cols="100" rows="10">   
+                    Idatzi hemen zergatik aldatuko duzun erreleen egoera
+                </textarea>
+            </p>
+            </fieldset>
+            <p>
+                <table>
+                    <tr><th colspan="4">Botoiak</th></tr>
+                    <tr>                        
+                        <td>
+                            <input type="reset" value="Ezabatu"> 
+                        </td>                        
+                        <td>
+                            <input type="submit" value="Bidali">
+                        </td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </p>
+        </form>
+    </section>
+    <section id="besteak">
+        <div>
+        <p>Zure orrian beste Webgune baten edukia marko baten barruan sartzeko: adibidez, Youtube-ko bideo bat  
+        Edukia Youtube-tik bertatik hartu behar duzu, partekatzeko aukeretan -- Kapsulatu</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EkES-g616VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+        <p>Beste formatu batzuetako fitxategiak sartzeko: pdf, etab.</p>
+        <object type="application/pdf" data="http://www.jpa-automation.com/wp-content/uploads/Tutorial-PLC-Siemens-S7-1200-web-service.pdf" ></object>
+        </div>
+    </section>
+</body>
+
+</html>

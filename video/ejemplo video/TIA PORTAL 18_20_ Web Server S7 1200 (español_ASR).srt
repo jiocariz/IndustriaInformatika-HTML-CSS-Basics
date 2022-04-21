@@ -1,0 +1,1344 @@
+1
+00:00:08,990 --> 00:00:15,570
+vamos a trabajar con el web server y
+
+2
+00:00:12,960 --> 00:00:20,519
+vamos a partir de un proyecto en el cual
+
+3
+00:00:15,570 --> 00:00:23,640
+tengo configurado en 1.214 vale entonces
+
+4
+00:00:20,519 --> 00:00:27,039
+antes de nada
+
+5
+00:00:23,640 --> 00:00:29,080
+arrancamos el dispositivo y arrancamos
+
+6
+00:00:27,039 --> 00:00:31,530
+nos ponemos en el dispositivo vamos a
+
+7
+00:00:29,079 --> 00:00:31,529
+las propiedades
+
+8
+00:00:32,549 --> 00:00:44,099
+en propiedades a un salto final
+
+9
+00:00:37,899 --> 00:00:44,100
+y bueno en mi caso tienen a 192 168
+
+10
+00:00:44,219 --> 00:00:50,200
+10.2 que es con la que atrás yo trabajo
+
+11
+00:00:46,929 --> 00:00:52,539
+y voy a utilizar interno activo
+
+12
+00:00:50,200 --> 00:00:53,940
+me aseguró
+
+13
+00:00:52,539 --> 00:00:57,119
+qué
+
+14
+00:00:53,939 --> 00:01:00,119
+que estoy trabajando adecuadamente en el
+
+15
+00:00:57,119 --> 00:01:01,809
+mismo rango como posiblemente estamos
+
+16
+00:01:00,119 --> 00:01:04,239
+viendo
+
+17
+00:01:01,810 --> 00:01:07,640
+la configuración de mi tarjeta y vemos
+
+18
+00:01:04,239 --> 00:01:09,960
+que tengo las 50
+
+19
+00:01:07,640 --> 00:01:11,629
+configurada
+
+20
+00:01:09,959 --> 00:01:17,169
+vale
+
+21
+00:01:11,629 --> 00:01:17,170
+en el momento no ha activado él
+
+22
+00:01:17,489 --> 00:01:22,979
+lewis server vamos a activarlo servidor
+
+23
+00:01:21,719 --> 00:01:25,829
+web
+
+24
+00:01:22,980 --> 00:01:28,520
+lo activamos
+
+25
+00:01:25,829 --> 00:01:28,519
+vale
+
+26
+00:01:28,939 --> 00:01:35,219
+no tengo no tengo ninguna página
+
+27
+00:01:32,290 --> 00:01:37,560
+configurada ni nada
+
+28
+00:01:35,219 --> 00:01:40,200
+entonces
+
+29
+00:01:37,560 --> 00:01:42,930
+transferimos programa
+
+30
+00:01:40,200 --> 00:01:45,859
+transferir el programa buscará la
+
+31
+00:01:42,930 --> 00:01:45,860
+dirección ip
+
+32
+00:01:50,079 --> 00:01:53,280
+le decimos cargar
+
+33
+00:02:13,068 --> 00:02:19,518
+bueno antes de que se me olvide para no
+
+34
+00:02:15,799 --> 00:02:23,230
+machacar el proyecto que tengo anterior
+
+35
+00:02:19,519 --> 00:02:23,230
+estilo de amargo server
+
+36
+00:02:25,169 --> 00:02:29,629
+madre tengo otro proyecto que se llama
+
+37
+00:02:27,568 --> 00:02:32,889
+igual
+
+38
+00:02:29,629 --> 00:02:32,889
+voy a orar
+
+39
+00:02:41,729 --> 00:02:47,310
+entonces guardar como hemos dicho
+
+40
+00:02:57,879 --> 00:03:02,519
+por si acaso lo volvemos a transferir
+
+41
+00:03:03,159 --> 00:03:05,819
+y bueno
+
+42
+00:03:09,669 --> 00:03:14,179
+para que se vea lo único que hemos hecho
+
+43
+00:03:12,129 --> 00:03:17,909
+es
+
+44
+00:03:14,180 --> 00:03:22,180
+configurar el wasser es activarlo
+
+45
+00:03:17,909 --> 00:03:25,769
+aquí en vuestras ver bajamos
+
+46
+00:03:22,180 --> 00:03:25,769
+y lo tenemos activado
+
+47
+00:03:28,280 --> 00:03:33,400
+no he cargado ninguna página esto lo
+
+48
+00:03:30,680 --> 00:03:39,719
+hace el por defecto
+
+49
+00:03:33,400 --> 00:03:39,719
+vale vamos a aquí y ponemos la dirección
+
+50
+00:03:41,069 --> 00:03:48,468
+392 168 días y entramos en él
+
+51
+00:03:46,068 --> 00:03:50,738
+no nos dice que la autómata está en modo
+
+52
+00:03:48,468 --> 00:03:50,739
+run
+
+53
+00:03:51,370 --> 00:03:57,390
+los datos del autómata buffer de
+
+54
+00:03:54,489 --> 00:03:57,390
+diagnóstico
+
+55
+00:03:57,469 --> 00:04:02,900
+el módulo de información que podemos
+
+56
+00:04:00,259 --> 00:04:05,729
+acceder en este caso sólo aparece a uno
+
+57
+00:04:02,900 --> 00:04:10,489
+porque sólo tenemos un autómata
+
+58
+00:04:05,729 --> 00:04:10,488
+los datos de nuestra red
+
+59
+00:04:11,039 --> 00:04:16,620
+variables
+
+60
+00:04:13,530 --> 00:04:18,798
+puedo puedo ver las diferentes variables
+
+61
+00:04:16,620 --> 00:04:21,930
+todavía no tengo ninguna ninguna
+
+62
+00:04:18,798 --> 00:04:26,099
+configurada entonces lo único que podría
+
+63
+00:04:21,930 --> 00:04:29,269
+poner son por ejemplo las direcciones
+
+64
+00:04:26,100 --> 00:04:29,270
+0 0
+
+65
+00:04:42,249 --> 00:04:47,349
+no tengo ninguna aplicación definida
+
+66
+00:04:44,588 --> 00:04:50,228
+entonces si le doy pues me está dando
+
+67
+00:04:47,348 --> 00:04:53,079
+error vale porque eso tenía hay un antes
+
+68
+00:04:50,228 --> 00:04:55,430
+que se llamaba hueso
+
+69
+00:04:53,079 --> 00:04:57,859
+un padre
+
+70
+00:04:55,430 --> 00:05:00,900
+pues ya lo hemos activado pero no
+
+71
+00:04:57,860 --> 00:05:04,020
+tenemos ningún programa ni nada vale
+
+72
+00:05:00,899 --> 00:05:06,000
+entonces antes de nada vamos a crear una
+
+73
+00:05:04,019 --> 00:05:10,639
+página web y será vamos a cargar
+
+74
+00:05:06,000 --> 00:05:10,639
+yo tengo una abierta
+
+75
+00:05:10,870 --> 00:05:13,980
+cuando tengo aquí en
+
+76
+00:05:24,180 --> 00:05:32,759
+estamos vemos simplemente está
+
+77
+00:05:28,379 --> 00:05:35,728
+este botón y este otro y que toma el
+
+78
+00:05:32,759 --> 00:05:41,149
+motor toma el valor de la variable motor
+
+79
+00:05:35,728 --> 00:05:41,149
+vamos a editarla yo trabajo con notepad
+
+80
+00:05:42,589 --> 00:05:47,869
+y bueno vamos a ir viendo bueno este
+
+81
+00:05:46,279 --> 00:05:51,229
+documento lo primero que tengo que hacer
+
+82
+00:05:47,870 --> 00:05:52,370
+es que me lea la variable que me
+
+83
+00:05:51,230 --> 00:05:54,230
+interese del motor
+
+84
+00:05:52,370 --> 00:05:56,209
+yo no definido ninguna variable ahora
+
+85
+00:05:54,230 --> 00:05:58,520
+las de finos voy a llamar motor vale a
+
+86
+00:05:56,209 --> 00:06:01,579
+la subida de 0 0
+
+87
+00:05:58,519 --> 00:06:04,319
+2 esto que me dice bueno me dice que me
+
+88
+00:06:01,579 --> 00:06:07,250
+meta en el autómata
+
+89
+00:06:04,319 --> 00:06:10,649
+y que es una variable de entrada porque
+
+90
+00:06:07,250 --> 00:06:12,660
+porque aunque es una salida del autómata
+
+91
+00:06:10,649 --> 00:06:15,359
+es una variable de entrada desde el
+
+92
+00:06:12,660 --> 00:06:17,130
+punto de vista de la página web es decir
+
+93
+00:06:15,360 --> 00:06:19,020
+yo voy a escribir sobre ella entonces
+
+94
+00:06:17,129 --> 00:06:22,409
+cuando voy a escribir sobre la variable
+
+95
+00:06:19,019 --> 00:06:24,810
+scene cuando voy a leer la variable
+
+96
+00:06:22,410 --> 00:06:27,670
+entonces le estoy viendo voy a escribir
+
+97
+00:06:24,810 --> 00:06:31,230
+en el web server
+
+98
+00:06:27,670 --> 00:06:34,439
+la variable motor vale
+
+99
+00:06:31,230 --> 00:06:38,790
+este es el título que toda mi página web
+
+100
+00:06:34,439 --> 00:06:40,740
+que es web server 1200 7200 y bueno
+
+101
+00:06:38,790 --> 00:06:43,110
+tiene aquí simplemente una descripción
+
+102
+00:06:40,740 --> 00:06:48,030
+arranque de un motor
+
+103
+00:06:43,110 --> 00:06:51,288
+aquí defino mi primer botón que se va el
+
+104
+00:06:48,029 --> 00:06:54,109
+botón se va a llevar start
+
+105
+00:06:51,288 --> 00:06:56,438
+y aquí le asignó la variable es decir le
+
+106
+00:06:54,110 --> 00:06:56,439
+digo
+
+107
+00:06:56,689 --> 00:07:03,330
+que ese botón se llamará motor y que
+
+108
+00:07:00,769 --> 00:07:06,348
+cuando lo pulse
+
+109
+00:07:03,329 --> 00:07:06,348
+se activará aún
+
+110
+00:07:07,920 --> 00:07:12,729
+aquí lo mismo creo otro que se llama
+
+111
+00:07:10,290 --> 00:07:15,669
+stop
+
+112
+00:07:12,728 --> 00:07:18,728
+otro botón que se llama stop y le digo
+
+113
+00:07:15,668 --> 00:07:21,008
+que cuando que este botón lo asigne a
+
+114
+00:07:18,728 --> 00:07:23,740
+motor y que cuando lo puse ese kong
+
+115
+00:07:21,009 --> 00:07:25,040
+hacer un valor cero y el nombre que va a
+
+116
+00:07:23,740 --> 00:07:26,780
+tomar un motor
+
+117
+00:07:25,040 --> 00:07:29,330
+y luego aquí simplemente le estoy
+
+118
+00:07:26,779 --> 00:07:32,259
+diciendo bueno la palabra motor ya que
+
+119
+00:07:29,329 --> 00:07:35,129
+aparezca lo que tenga esta variable
+
+120
+00:07:32,259 --> 00:07:35,129
+posible
+
+121
+00:07:35,610 --> 00:07:41,340
+entonces
+
+122
+00:07:37,870 --> 00:07:41,340
+vamos a ejecutarlo
+
+123
+00:07:42,709 --> 00:07:49,250
+si lo ejecutó fuera del whatsapp me pone
+
+124
+00:07:45,709 --> 00:07:52,250
+a 16 que ha puesto ahí a 1 la variable
+
+125
+00:07:49,250 --> 00:07:53,720
+motor si le doy a éste lo pongo hace no
+
+126
+00:07:52,250 --> 00:07:57,189
+me está haciendo nada porque todavía no
+
+127
+00:07:53,720 --> 00:07:57,190
+ha transferido la página web
+
+128
+00:07:57,610 --> 00:08:00,180
+al motor
+
+129
+00:08:03,968 --> 00:08:09,408
+lo siguiente que voy a hacer vuelvo aquí
+
+130
+00:08:06,418 --> 00:08:12,459
+y ahora a cargo la
+
+131
+00:08:09,408 --> 00:08:12,459
+a la página
+
+132
+00:08:12,769 --> 00:08:19,120
+entonces le digo
+
+133
+00:08:14,870 --> 00:08:19,120
+esto según propiedades de la cpu
+
+134
+00:08:19,189 --> 00:08:24,800
+encuentro mi
+
+135
+00:08:21,889 --> 00:08:27,490
+mi página web que está en biblioteca dos
+
+136
+00:08:24,800 --> 00:08:27,490
+momentos
+
+137
+00:08:28,629 --> 00:08:32,730
+y mi aplicación ahí está
+
+138
+00:08:34,179 --> 00:08:37,019
+es index
+
+139
+00:08:37,860 --> 00:08:42,200
+la página de inicio y la llamo
+
+140
+00:08:46,710 --> 00:08:53,629
+o hacer ver
+
+141
+00:08:49,328 --> 00:08:55,519
+el 67 1200
+
+142
+00:08:53,629 --> 00:09:00,320
+vale
+
+143
+00:08:55,519 --> 00:09:04,689
+y le tengo que decir generar bloques
+
+144
+00:09:00,320 --> 00:09:04,690
+vale va a hacer general
+
+145
+00:09:04,909 --> 00:09:11,709
+entonces que me hacen me hace dos
+
+146
+00:09:07,129 --> 00:09:11,710
+bloques del sistema con el whatsapp
+
+147
+00:09:12,399 --> 00:09:18,409
+a ellos tenéis empiezan al 333
+
+148
+00:09:16,578 --> 00:09:21,948
+porque porque esto es lo que le ha
+
+149
+00:09:18,409 --> 00:09:25,809
+dejado por defecto lee páginas html y
+
+150
+00:09:21,948 --> 00:09:29,349
+html la que yo he creado es html
+
+151
+00:09:25,809 --> 00:09:33,129
+y para que se comuniquen ambos
+
+152
+00:09:29,350 --> 00:09:35,490
+es decir el observer y el autómata debo
+
+153
+00:09:33,129 --> 00:09:38,490
+también
+
+154
+00:09:35,490 --> 00:09:38,490
+configurar
+
+155
+00:09:39,480 --> 00:09:43,329
+las comunicaciones
+
+156
+00:09:41,370 --> 00:09:45,659
+qué es una función
+
+157
+00:09:43,328 --> 00:09:50,159
+la llamo
+
+158
+00:09:45,659 --> 00:09:53,039
+le digo él debe donde voy a trabajar
+
+159
+00:09:50,159 --> 00:09:56,818
+y aquí el valor de salida le voy a
+
+160
+00:09:53,039 --> 00:10:01,039
+llamar es una variable interna de este v
+
+161
+00:09:56,818 --> 00:10:03,169
+del v 1 una variable local
+
+162
+00:10:01,039 --> 00:10:05,899
+llamar ok la puedo llamar como quieran
+
+163
+00:10:03,169 --> 00:10:07,099
+en alguno manuel la llama red vall en
+
+164
+00:10:05,899 --> 00:10:10,039
+otros vale
+
+165
+00:10:07,100 --> 00:10:11,870
+le doy me está dando error que no existe
+
+166
+00:10:10,039 --> 00:10:14,980
+porque todavía no la he creado porque si
+
+167
+00:10:11,870 --> 00:10:14,980
+dio aquí
+
+168
+00:10:15,580 --> 00:10:20,110
+veo las variables que tengo definidas no
+
+169
+00:10:17,860 --> 00:10:23,528
+hay ninguna variable definida
+
+170
+00:10:20,110 --> 00:10:28,110
+me pongo aquí le digo definir variable y
+
+171
+00:10:23,528 --> 00:10:28,110
+me define la variable ok como entero
+
+172
+00:10:28,990 --> 00:10:33,930
+esto ya lo puedo cerrar ahí ya está
+
+173
+00:10:30,730 --> 00:10:33,930
+creada la variable
+
+174
+00:10:33,980 --> 00:10:40,110
+de acuerdo y volvemos a la autómata
+
+175
+00:10:37,809 --> 00:10:43,699
+para comprobar que todo está bien
+
+176
+00:10:40,110 --> 00:10:43,700
+hemos activado ua server
+
+177
+00:10:44,339 --> 00:10:50,009
+de esta actualización automática y bueno
+
+178
+00:10:47,759 --> 00:10:52,440
+hemos cargado la página web a ver si
+
+179
+00:10:50,009 --> 00:10:54,860
+tenemos suerte y va todo
+
+180
+00:10:52,440 --> 00:10:54,860
+le damos
+
+181
+00:10:55,379 --> 00:11:00,379
+os recuerdo que no ha introducido ningún
+
+182
+00:10:57,989 --> 00:11:03,089
+programa bueno me estaba en un error
+
+183
+00:11:00,379 --> 00:11:06,470
+porque
+
+184
+00:11:03,089 --> 00:11:09,440
+pues básicamente me está diciendo
+
+185
+00:11:06,470 --> 00:11:12,350
+vamos a cerrar vamos a ver el error que
+
+186
+00:11:09,440 --> 00:11:14,990
+no está definida la variable moto es que
+
+187
+00:11:12,350 --> 00:11:17,029
+tengo que hacer si yo en la página web
+
+188
+00:11:14,990 --> 00:11:19,430
+la llamado motor lo primero que tengo
+
+189
+00:11:17,029 --> 00:11:21,230
+que hacer es definir las variables y
+
+190
+00:11:19,429 --> 00:11:24,049
+bueno como más adelante voy a hacer un
+
+191
+00:11:21,230 --> 00:11:26,090
+programa para que veáis que se puede
+
+192
+00:11:24,049 --> 00:11:28,059
+activar desde los dos sitios ya defino
+
+193
+00:11:26,090 --> 00:11:31,060
+todas las variables y voy a empezar con
+
+194
+00:11:28,059 --> 00:11:31,059
+term
+
+195
+00:11:46,620 --> 00:11:51,200
+pero esta no es una entrada al motor
+
+196
+00:11:48,809 --> 00:11:56,500
+base en una salida
+
+197
+00:11:51,200 --> 00:11:56,500
+entonces les voy a decir que sea o no
+
+198
+00:11:56,940 --> 00:12:01,920
+y ya está definido variables sigo sin
+
+199
+00:12:00,090 --> 00:12:04,290
+haber hecho ningún programa
+
+200
+00:12:01,919 --> 00:12:07,979
+el único programa es esto para que me
+
+201
+00:12:04,289 --> 00:12:10,939
+lea para que me lea el autómata se
+
+202
+00:12:07,980 --> 00:12:12,800
+comunica en el west server y el auto
+
+203
+00:12:10,940 --> 00:12:14,990
+bueno pues le transfiero el programa
+
+204
+00:12:12,799 --> 00:12:18,849
+ahora ya no me aparecerá el menú de
+
+205
+00:12:14,990 --> 00:12:21,539
+antes porque ya ha reconocido la ip
+
+206
+00:12:18,850 --> 00:12:21,540
+te digo
+
+207
+00:12:25,259 --> 00:12:30,590
+finalizar dejó el motor y dejó el
+
+208
+00:12:28,379 --> 00:12:33,100
+autómata en modo run
+
+209
+00:12:30,590 --> 00:12:33,100
+y
+
+210
+00:12:34,269 --> 00:12:39,069
+ya he definido todo
+
+211
+00:12:37,029 --> 00:12:42,059
+por curiosidad vamos a ver si me
+
+212
+00:12:39,070 --> 00:12:42,060
+reconoce la variable
+
+213
+00:12:46,730 --> 00:12:49,899
+es tipo vol
+
+214
+00:12:50,379 --> 00:12:55,840
+y bueno me está diciendo que está hacer
+
+215
+00:12:52,360 --> 00:12:58,240
+vale porque me la dejara poner porque ya
+
+216
+00:12:55,840 --> 00:13:00,528
+he declarado la variable en el programa
+
+217
+00:12:58,240 --> 00:13:04,579
+y lo ha transferido
+
+218
+00:13:00,528 --> 00:13:07,088
+bueno voy a mi user page que son las las
+
+219
+00:13:04,578 --> 00:13:07,088
+páginas
+
+220
+00:13:07,570 --> 00:13:12,899
+vale ahora está ahí le voy a estar pero
+
+221
+00:13:10,870 --> 00:13:15,629
+no hace nada
+
+222
+00:13:12,899 --> 00:13:17,458
+le doy a esto bueno si me dice que está
+
+223
+00:13:15,629 --> 00:13:20,009
+poniendo la variable pero aquí no toma
+
+224
+00:13:17,458 --> 00:13:22,549
+el valor y además en el autómata no se
+
+225
+00:13:20,009 --> 00:13:24,980
+oye la salida
+
+226
+00:13:22,549 --> 00:13:26,939
+que me falta bueno pues debo
+
+227
+00:13:24,980 --> 00:13:30,649
+identificarme
+
+228
+00:13:26,940 --> 00:13:30,650
+el usuario es admin
+
+229
+00:13:31,230 --> 00:13:36,960
+y la contraseña es en este caso ninguna
+
+230
+00:13:34,740 --> 00:13:38,909
+porque no he configurado en la cpu
+
+231
+00:13:36,960 --> 00:13:41,580
+ninguna si hubiera configurado una
+
+232
+00:13:38,909 --> 00:13:43,799
+contraseña la cpu sería una contraseña
+
+233
+00:13:41,580 --> 00:13:46,020
+donde debería configurar la contraseña
+
+234
+00:13:43,799 --> 00:13:49,399
+si quisiera tener una seguridad
+
+235
+00:13:46,019 --> 00:13:53,439
+adicional por me vendría aquí
+
+236
+00:13:49,399 --> 00:13:53,439
+a las propiedades y por aquí
+
+237
+00:13:54,980 --> 00:14:00,759
+en protección le daría protección contra
+
+238
+00:13:58,549 --> 00:14:03,588
+escritura y lectura y con full
+
+239
+00:14:00,759 --> 00:14:05,509
+configuraría una contraseña esa es la
+
+240
+00:14:03,589 --> 00:14:07,550
+contraseña que le pondría si quisiera
+
+241
+00:14:05,509 --> 00:14:08,990
+que tuviera contraseña no os la voy a
+
+242
+00:14:07,549 --> 00:14:10,709
+andar cambiando por si luego no me
+
+243
+00:14:08,990 --> 00:14:13,799
+acuerdo de ella
+
+244
+00:14:10,710 --> 00:14:16,170
+y la dejo no ahora ahora si me voy a
+
+245
+00:14:13,799 --> 00:14:18,539
+acordar pero a lo mejor más adelante en
+
+246
+00:14:16,169 --> 00:14:20,459
+unos meses trabajo con el autómata le
+
+247
+00:14:18,539 --> 00:14:23,139
+pongo una contraseña en el recuerdo
+
+248
+00:14:20,460 --> 00:14:27,278
+entonces de momento lo voy a dejar así
+
+249
+00:14:23,139 --> 00:14:29,230
+y me voy y ahora aparece administrador
+
+250
+00:14:27,278 --> 00:14:31,948
+estoy como administrador ahora vuelvo a
+
+251
+00:14:29,230 --> 00:14:31,949
+la página web
+
+252
+00:14:33,938 --> 00:14:39,529
+y ahora se le doy
+
+253
+00:14:37,100 --> 00:14:42,470
+se pone a 1 pero no sólo se pone a uno
+
+254
+00:14:39,529 --> 00:14:44,839
+si no es que la variable de salidas ha
+
+255
+00:14:42,470 --> 00:14:47,290
+puesto aún así el arrancó y para la
+
+256
+00:14:44,840 --> 00:14:47,290
+variante
+
+257
+00:14:49,049 --> 00:14:55,149
+estoy arrancando y parando el motor
+
+258
+00:14:52,690 --> 00:14:57,790
+pero qué ocurre si yo mi motor pues
+
+259
+00:14:55,149 --> 00:15:00,429
+aparte de un estar de un arranque y de
+
+260
+00:14:57,789 --> 00:15:02,289
+un stop tiene post térmico todo lo demás
+
+261
+00:15:00,429 --> 00:15:05,109
+que he definido pues tengo que hacer un
+
+262
+00:15:02,289 --> 00:15:06,579
+programa porque lo que hace básicamente
+
+263
+00:15:05,110 --> 00:15:08,649
+esto es que cuando le doy a uno lo pone
+
+264
+00:15:06,580 --> 00:15:11,900
+a set y cuando lo pongo ya esto lo pone
+
+265
+00:15:08,649 --> 00:15:13,490
+a acción residual
+
+266
+00:15:11,899 --> 00:15:15,970
+bueno pues ahora voy a hacer un
+
+267
+00:15:13,490 --> 00:15:15,970
+programita
+
+268
+00:15:16,399 --> 00:15:20,230
+y lo voy a transferir
+
+269
+00:15:22,360 --> 00:15:28,350
+entonces
+
+270
+00:15:24,519 --> 00:15:28,350
+defino las tres variables
+
+271
+00:15:30,399 --> 00:15:33,779
+y arrancó el motor
+
+272
+00:16:09,120 --> 00:16:15,740
+en el enclavamiento
+
+273
+00:16:11,970 --> 00:16:19,940
+en el entrenamiento real y menta ción
+
+274
+00:16:15,740 --> 00:16:22,430
+es el motor bueno si os dais cuenta no
+
+275
+00:16:19,940 --> 00:16:25,280
+me pone y 0 0 no sé es que cuando
+
+276
+00:16:22,429 --> 00:16:28,579
+trabajas con el web server se ve que
+
+277
+00:16:25,279 --> 00:16:29,870
+trabaja en modo alemán y me cambia la
+
+278
+00:16:28,580 --> 00:16:33,459
+variable se me ha pasado varias veces
+
+279
+00:16:29,870 --> 00:16:36,459
+clase la se vuelto a poner
+
+280
+00:16:33,458 --> 00:16:37,629
+según la iese pero me los cambios de
+
+281
+00:16:36,458 --> 00:16:40,829
+útil así que
+
+282
+00:16:37,629 --> 00:16:40,830
+de momento las dejo así
+
+283
+00:16:41,309 --> 00:16:45,859
+y bueno el tránsfer el programa
+
+284
+00:16:58,250 --> 00:17:02,450
+le pongo los ojitos
+
+285
+00:17:07,309 --> 00:17:11,690
+y bueno ahora mismo no está activado el
+
+286
+00:17:09,380 --> 00:17:14,900
+motor lo voy a activar activar desde el
+
+287
+00:17:11,690 --> 00:17:18,710
+whatsapp lo voy a estar
+
+288
+00:17:14,900 --> 00:17:22,130
+y vuelvo y veo que está activado y ahora
+
+289
+00:17:18,710 --> 00:17:24,460
+lo voy a parar desde el autómata dándole
+
+290
+00:17:22,130 --> 00:17:28,570
+a la entrada de 0 0
+
+291
+00:17:24,460 --> 00:17:31,029
+bueno pues le doy y se para y como veis
+
+292
+00:17:28,569 --> 00:17:32,919
+se ha parado y aunque esta web server
+
+293
+00:17:31,029 --> 00:17:35,619
+que quiere decir que funciona el ua
+
+294
+00:17:32,920 --> 00:17:37,600
+server y el programa del autómata a la
+
+295
+00:17:35,619 --> 00:17:39,489
+vez y puedo activarlo
+
+296
+00:17:37,599 --> 00:17:41,029
+desde donde quiera lo vuelvo a activar
+
+297
+00:17:39,490 --> 00:17:44,740
+desde ahí
+
+298
+00:17:41,029 --> 00:17:44,740
+lo vuelvo a quitar desde ahí
+
+299
+00:17:45,029 --> 00:17:52,839
+al activo otra vez la marcha desde los
+
+300
+00:17:49,630 --> 00:17:56,550
+interruptores se ha activado y ahora por
+
+301
+00:17:52,839 --> 00:17:56,549
+ejemplo pues lo apago desde el water
+
+302
+00:17:58,680 --> 00:18:04,830
+entonces como vemos desde la página web
+
+303
+00:18:01,079 --> 00:18:07,339
+puedo puedo trabajar bueno voy a parar
+
+304
+00:18:04,829 --> 00:18:07,339
+el vídeo
+
+305
+00:18:07,609 --> 00:18:12,599
+luego seguiré
+
+306
+00:18:10,140 --> 00:18:15,000
+bueno nos vamos a conectar con el west
+
+307
+00:18:12,599 --> 00:18:16,519
+server a través de un móvil le vamos a
+
+308
+00:18:15,000 --> 00:18:19,279
+dar a conectar
+
+309
+00:18:16,519 --> 00:18:22,839
+vamos a ajustes configuramos
+
+310
+00:18:19,279 --> 00:18:25,839
+y la wifi ahora debemos activar la
+
+311
+00:18:22,839 --> 00:18:25,839
+activamos
+
+312
+00:18:28,829 --> 00:18:32,418
+al gustarte perlín
+
+313
+00:18:32,519 --> 00:18:37,219
+vemos que la conexión está establecida
+
+314
+00:18:42,250 --> 00:18:50,519
+en el navegador ponemos la dirección del
+
+315
+00:18:44,410 --> 00:18:50,519
+web server 192 168 10.2
+
+316
+00:18:51,869 --> 00:18:58,519
+le damos a intro y entramos en el war
+
+317
+00:18:54,779 --> 00:18:58,519
+server en interesados
+
+318
+00:18:59,890 --> 00:19:07,020
+y bueno ahora para poder activar tenemos
+
+319
+00:19:03,160 --> 00:19:10,730
+que introducir el usuario y contraseña
+
+320
+00:19:07,019 --> 00:19:10,730
+en este caso usuario admin
+
+321
+00:19:10,980 --> 00:19:16,759
+y contraseña ninguna porque no hemos
+
+322
+00:19:12,990 --> 00:19:16,759
+configurado ninguna contraseña
+
+323
+00:19:18,750 --> 00:19:24,450
+le damos a login una vez que hemos
+
+324
+00:19:20,759 --> 00:19:26,009
+introducido muy bien estamos dentro y
+
+325
+00:19:24,450 --> 00:19:28,380
+ahora vemos que estamos en una pantalla
+
+326
+00:19:26,009 --> 00:19:32,029
+que podemos poner en stop jong un en
+
+327
+00:19:28,380 --> 00:19:32,030
+autómata antes pero vamos a dar
+
+328
+00:19:33,490 --> 00:19:36,058
+arum
+
+329
+00:19:36,359 --> 00:19:43,809
+marcha empiezan a parpadear los
+
+330
+00:19:40,069 --> 00:19:47,039
+le damos flash led ver y parpadean
+
+331
+00:19:43,809 --> 00:19:47,039
+marcha paro
+
+332
+00:19:49,869 --> 00:19:58,139
+página web
+
+333
+00:19:52,259 --> 00:20:00,119
+y ahí estar ponemos a 1 stop a 0 y bueno
+
+334
+00:19:58,140 --> 00:20:01,549
+como vemos hemos controlado el observer
+
+335
+00:20:00,119 --> 00:20:04,359
+desde un móvil
+
+336
+00:20:01,548 --> 00:20:04,359
+y android
+

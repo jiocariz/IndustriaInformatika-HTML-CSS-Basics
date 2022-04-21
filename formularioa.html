@@ -1,0 +1,144 @@
+<<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularioak - Ariketa</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+        }
+        fieldset legend {
+            background-color: #fff;
+            border:black 1px solid
+}
+        fieldset#datPers{
+            background-color:rgb(128, 175, 128);
+        }
+        fieldset#dok{
+            background-color:#CCC;
+        }
+        fieldset#sarb{
+            background-color:#CC3;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Goi-mailako Lanbide Heziketa-zikloetan izena emateko orria</h1>
+    <form method="POST" action="formularioa.html">
+        <fieldset id="datPers">
+            <legend>Datu pertsonalak</legend>
+            <table>
+                <tr>
+                    <th>
+                        <label for="izen">Izena:</label>
+                    </th>
+                    <th>
+                        <label for="abiz">Abizenak:</label>
+                    </th>
+                    <th>
+                        <label for="nana">NAN:</label>                        
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="izen"/>
+                    </td>
+                    <td>
+                        <input type="text" name="abiz"/>
+                    </td>
+                    <td>
+                        <input type="text" name="nana"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="jahe">Jaioterria:</label>
+                    </th>
+                    <th>
+                        <label for="lurr">Lurraldea:</label>
+                    </th>
+                    <th>
+                        <label for="jada">Jaiotze-data</label>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="jahe"/>
+                    </td>
+                    <td>
+                        <select name="lurr">
+                            <option value="00">Aukeratu bat</option>
+                            <option value="01">Araba</option>
+                            <option value="02">Bizkaia</option>
+                            <option value="03">Gipuzkoa</option>
+                        </select>                        
+                        <!--
+                        <input list="lurraldeak" id="lurr" name="lurr" />
+                        <datalist id="lurraldeak">
+                            <option value="Araba" >
+                            <option value="Bizkaia">
+                            <option value="Gipuzkoa">
+                        </datalist>
+                        -->
+                    </td>
+                    <td>
+                        <input type="date" name="jada"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <label for="helb">Helbidea:</label>
+                    </th>
+                    <th>
+                        <label for="poko">Posta-kodea:</label>
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="helb"/>
+                    </td>
+                    <td>
+                        <input type="text" name="poko"/>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset id="sarb">
+            <legend>Sarbidea</legend> 
+            <ul >
+                <li><input type="radio" name="sar1" value="01"/>Zuzena</li>
+                    <ul>
+                        <li><input type="radio" name="sar2" value="011"/>Batxillergoa&nbsp;<label for="moda">Modalitatea</label><input type="text" name="sar2_011" id="moda"/></li>
+                        <li><input type="radio" name="sar2" value="012"/>Erdi mailako zikloa</li>
+                        <li><input type="radio" name="sar2" value="013"/>Unibertsitatea</li>
+                        <li><input type="radio" name="sar2" value="014"/>Besterik&nbsp;<label for="best">Modalitatea</label><input type="text" name="sar2_014" id="best"/></li>
+                    </ul>
+                <li><input type="radio" name="sar1" value="02"/>Sarbide Proba</li>
+            </ul>
+        </fieldset>
+        <fieldset id="dok">
+            <legend>Erantsitako Dokumentuak</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="nanf"/>NANaren fotokopia</td>
+                    <td><input type="checkbox" name="ziur"/>Ziurtagiri akademikoa</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" name="best"/>Beste dokumenturik (hautatu)&nbsp;<input type="file" name="best_f"/></td>
+                </tr>
+            </table>
+                    
+        </fieldset>
+        <p><input type="submit" value="Bidali"/></p>
+        
+    </form>
+</body>
+</html>
